@@ -1,0 +1,108 @@
+{
+  "inputs": [
+    "results/mimic_formal_50_experiment_medgemma.json",
+    "results/private_formal_50_experiment_chexagent_labels_only.json"
+  ],
+  "configs": [
+    {
+      "dataset": "mimic_formal_50",
+      "model": "MedGemma-27B",
+      "prompt_style": "structured",
+      "config_id": "mimic_formal_50__MedGemma-27B__structured",
+      "file": "mimic_formal_50_experiment_medgemma.json",
+      "n_cases": 50,
+      "n_features": 6,
+      "folds": [
+        {
+          "fold": 1,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.0
+        },
+        {
+          "fold": 2,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.1
+        },
+        {
+          "fold": 3,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.1
+        },
+        {
+          "fold": 4,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.3
+        },
+        {
+          "fold": 5,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.0
+        }
+      ],
+      "label_multi_ratio": 0.2,
+      "feature_names": [
+        "n_pred",
+        "is_all_normal",
+        "response_len",
+        "single_tokens",
+        "level",
+        "partial_match_single"
+      ]
+    },
+    {
+      "dataset": "private_formal_50",
+      "model": "CheXagent-8B",
+      "prompt_style": "labels_only",
+      "config_id": "private_formal_50__CheXagent-8B__labels_only",
+      "file": "private_formal_50_experiment_chexagent_labels_only.json",
+      "n_cases": 50,
+      "n_features": 6,
+      "folds": [
+        {
+          "fold": 1,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.0
+        },
+        {
+          "fold": 2,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.0
+        },
+        {
+          "fold": 3,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.1
+        },
+        {
+          "fold": 4,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.0
+        },
+        {
+          "fold": 5,
+          "train_size": 40,
+          "test_size": 10,
+          "test_multi_ratio": 0.0
+        }
+      ],
+      "label_multi_ratio": 0.1,
+      "feature_names": [
+        "n_pred",
+        "is_all_normal",
+        "response_len",
+        "single_tokens",
+        "level",
+        "partial_match_single"
+      ]
+    }
+  ]
+}

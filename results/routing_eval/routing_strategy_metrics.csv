@@ -1,0 +1,13 @@
+config_id,dataset,model,prompt_style,file,n_cases,strategy,macro_f1,avg_latency_sec,avg_tokens,multi_ratio
+mimic_formal_50__MedGemma-27B__structured,mimic_formal_50,MedGemma-27B,structured,mimic_formal_50_experiment_medgemma.json,50,always_single,0.1381118881118881,4.861746516525745,104.26,0.0
+mimic_formal_50__MedGemma-27B__structured,mimic_formal_50,MedGemma-27B,structured,mimic_formal_50_experiment_medgemma.json,50,always_multi,0.3346110205389369,6.274536563828588,135.14,1.0
+mimic_formal_50__MedGemma-27B__structured,mimic_formal_50,MedGemma-27B,structured,mimic_formal_50_experiment_medgemma.json,50,oracle,0.3379126973147543,5.0751519211381675,108.98,0.2
+mimic_formal_50__MedGemma-27B__structured,mimic_formal_50,MedGemma-27B,structured,mimic_formal_50_experiment_medgemma.json,50,heuristic_a,0.1381118881118881,4.861746516525745,104.26,0.0
+mimic_formal_50__MedGemma-27B__structured,mimic_formal_50,MedGemma-27B,structured,mimic_formal_50_experiment_medgemma.json,50,heuristic_b,0.3313820018365473,5.255892895013094,112.5,0.4
+mimic_formal_50__MedGemma-27B__structured,mimic_formal_50,MedGemma-27B,structured,mimic_formal_50_experiment_medgemma.json,50,learned_5fold,0.1623647186147186,4.776271501854062,102.22,0.1
+private_formal_50__CheXagent-8B__labels_only,private_formal_50,CheXagent-8B,labels_only,private_formal_50_experiment_chexagent_labels_only.json,50,always_single,0.45714938374784925,0.9967559091746807,11.94,0.0
+private_formal_50__CheXagent-8B__labels_only,private_formal_50,CheXagent-8B,labels_only,private_formal_50_experiment_chexagent_labels_only.json,50,always_multi,0.11767676767676766,2.612294387668371,21.9,1.0
+private_formal_50__CheXagent-8B__labels_only,private_formal_50,CheXagent-8B,labels_only,private_formal_50_experiment_chexagent_labels_only.json,50,oracle,0.4883761861034589,1.16621734932065,13.62,0.1
+private_formal_50__CheXagent-8B__labels_only,private_formal_50,CheXagent-8B,labels_only,private_formal_50_experiment_chexagent_labels_only.json,50,heuristic_a,0.45714938374784925,0.9967559091746807,11.94,0.0
+private_formal_50__CheXagent-8B__labels_only,private_formal_50,CheXagent-8B,labels_only,private_formal_50_experiment_chexagent_labels_only.json,50,heuristic_b,0.4883761861034589,1.3089285246282816,14.98,0.18
+private_formal_50__CheXagent-8B__labels_only,private_formal_50,CheXagent-8B,labels_only,private_formal_50_experiment_chexagent_labels_only.json,50,learned_5fold,0.46294412658049017,1.0340582979470492,12.0,0.02

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: If you use this code or the result files, please cite the paper below.
+title: Reliability Stress Tests and Decision-Time Routing for Chest X-ray Vision-Language Models
+type: software
+license: Apache-2.0
+repository-code: https://github.com/Yangxinyee/cxr-vlm-routing
+authors:
+  - given-names: Xinye
+    family-names: Yang
+    orcid: https://orcid.org/0009-0004-3143-4263
+  - given-names: Zhusi
+    family-names: Zhong
+  - given-names: Scott
+    family-names: Collins
+  - given-names: Grayson
+    family-names: Baird
+  - given-names: Xuyu
+    family-names: Wang
+  - given-names: Zhicheng
+    family-names: Jiao
+keywords:
+  - chest X-ray
+  - vision-language models
+  - medical VLM evaluation
+  - multi-agent
+  - inference routing
+  - MedGemma
+  - CheXagent
+preferred-citation:
+  type: conference-paper
+  title: Reliability Stress Tests and Decision-Time Routing for Chest X-ray Vision-Language Models
+  authors:
+    - given-names: Xinye
+      family-names: Yang
+    - given-names: Zhusi
+      family-names: Zhong
+    - given-names: Scott
+      family-names: Collins
+    - given-names: Grayson
+      family-names: Baird
+    - given-names: Xuyu
+      family-names: Wang
+    - given-names: Zhicheng
+      family-names: Jiao
+  collection-title: "2026 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
+  year: 2026
+  doi: 10.1109/CHASE69719.2026.00073

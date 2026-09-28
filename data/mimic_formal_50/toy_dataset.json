@@ -1,0 +1,602 @@
+[
+  {
+    "case_id": "mimic_formal_001",
+    "image_path": "images/mimic_formal_001_s50056854.jpg",
+    "study_id": "s50056854",
+    "split": "valid",
+    "label": "Cardiomegaly",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Cardiomegaly",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_002",
+    "image_path": "images/mimic_formal_002_s50084553.jpg",
+    "study_id": "s50084553",
+    "split": "valid",
+    "label": "Atelectasis, Edema, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Edema, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_003",
+    "image_path": "images/mimic_formal_003_s50091414.jpg",
+    "study_id": "s50091414",
+    "split": "valid",
+    "label": "Cardiomegaly, Edema, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Cardiomegaly, Edema, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_004",
+    "image_path": "images/mimic_formal_004_s50146664.jpg",
+    "study_id": "s50146664",
+    "split": "valid",
+    "label": "Cardiomegaly, Edema, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Cardiomegaly, Edema, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_005",
+    "image_path": "images/mimic_formal_005_s50152901.jpg",
+    "study_id": "s50152901",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_006",
+    "image_path": "images/mimic_formal_006_s50173042.jpg",
+    "study_id": "s50173042",
+    "split": "valid",
+    "label": "Atelectasis",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_007",
+    "image_path": "images/mimic_formal_007_s50196128.jpg",
+    "study_id": "s50196128",
+    "split": "valid",
+    "label": "Atelectasis",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_008",
+    "image_path": "images/mimic_formal_008_s50207397.jpg",
+    "study_id": "s50207397",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_009",
+    "image_path": "images/mimic_formal_009_s50227217.jpg",
+    "study_id": "s50227217",
+    "split": "valid",
+    "label": "Edema, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Edema, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_010",
+    "image_path": "images/mimic_formal_010_s50269819.jpg",
+    "study_id": "s50269819",
+    "split": "valid",
+    "label": "Edema, Lung Opacity",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Edema, Lung Opacity",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_011",
+    "image_path": "images/mimic_formal_011_s53625240.jpg",
+    "study_id": "s53625240",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_012",
+    "image_path": "images/mimic_formal_012_s51856263.jpg",
+    "study_id": "s51856263",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_013",
+    "image_path": "images/mimic_formal_013_s59266404.jpg",
+    "study_id": "s59266404",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_014",
+    "image_path": "images/mimic_formal_014_s58549367.jpg",
+    "study_id": "s58549367",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_015",
+    "image_path": "images/mimic_formal_015_s55818165.jpg",
+    "study_id": "s55818165",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_016",
+    "image_path": "images/mimic_formal_016_s55380352.jpg",
+    "study_id": "s55380352",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_017",
+    "image_path": "images/mimic_formal_017_s55255109.jpg",
+    "study_id": "s55255109",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_018",
+    "image_path": "images/mimic_formal_018_s59777295.jpg",
+    "study_id": "s59777295",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_019",
+    "image_path": "images/mimic_formal_019_s51728482.jpg",
+    "study_id": "s51728482",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_020",
+    "image_path": "images/mimic_formal_020_s56038252.jpg",
+    "study_id": "s56038252",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_021",
+    "image_path": "images/mimic_formal_021_s52366630.jpg",
+    "study_id": "s52366630",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_022",
+    "image_path": "images/mimic_formal_022_s59001230.jpg",
+    "study_id": "s59001230",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_023",
+    "image_path": "images/mimic_formal_023_s55148571.jpg",
+    "study_id": "s55148571",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_024",
+    "image_path": "images/mimic_formal_024_s59509278.jpg",
+    "study_id": "s59509278",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_025",
+    "image_path": "images/mimic_formal_025_s51475084.jpg",
+    "study_id": "s51475084",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_026",
+    "image_path": "images/mimic_formal_026_s50281684.jpg",
+    "study_id": "s50281684",
+    "split": "valid",
+    "label": "Atelectasis, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_027",
+    "image_path": "images/mimic_formal_027_s56869570.jpg",
+    "study_id": "s56869570",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_028",
+    "image_path": "images/mimic_formal_028_s50591741.jpg",
+    "study_id": "s50591741",
+    "split": "valid",
+    "label": "Atelectasis, Enlarged Cardiomediastinum",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Enlarged Cardiomediastinum",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_029",
+    "image_path": "images/mimic_formal_029_s50702835.jpg",
+    "study_id": "s50702835",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_030",
+    "image_path": "images/mimic_formal_030_s51882341.jpg",
+    "study_id": "s51882341",
+    "split": "valid",
+    "label": "Atelectasis",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_031",
+    "image_path": "images/mimic_formal_031_s56811276.jpg",
+    "study_id": "s56811276",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_032",
+    "image_path": "images/mimic_formal_032_s50512608.jpg",
+    "study_id": "s50512608",
+    "split": "valid",
+    "label": "Atelectasis, Pleural Effusion, Pneumothorax",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Pleural Effusion, Pneumothorax",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_033",
+    "image_path": "images/mimic_formal_033_s57451515.jpg",
+    "study_id": "s57451515",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_034",
+    "image_path": "images/mimic_formal_034_s52648594.jpg",
+    "study_id": "s52648594",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_035",
+    "image_path": "images/mimic_formal_035_s51350911.jpg",
+    "study_id": "s51350911",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_036",
+    "image_path": "images/mimic_formal_036_s51770964.jpg",
+    "study_id": "s51770964",
+    "split": "valid",
+    "label": "Consolidation, Pleural Effusion, Pneumonia",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Consolidation, Pleural Effusion, Pneumonia",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_037",
+    "image_path": "images/mimic_formal_037_s59535336.jpg",
+    "study_id": "s59535336",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_038",
+    "image_path": "images/mimic_formal_038_s52139270.jpg",
+    "study_id": "s52139270",
+    "split": "valid",
+    "label": "Atelectasis, Cardiomegaly, Edema, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Cardiomegaly, Edema, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_039",
+    "image_path": "images/mimic_formal_039_s51010496.jpg",
+    "study_id": "s51010496",
+    "split": "valid",
+    "label": "Cardiomegaly, Edema",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Cardiomegaly, Edema",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_040",
+    "image_path": "images/mimic_formal_040_s51385148.jpg",
+    "study_id": "s51385148",
+    "split": "valid",
+    "label": "Atelectasis, Cardiomegaly, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Cardiomegaly, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_041",
+    "image_path": "images/mimic_formal_041_s52908323.jpg",
+    "study_id": "s52908323",
+    "split": "valid",
+    "label": "Cardiomegaly, Edema",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Cardiomegaly, Edema",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_042",
+    "image_path": "images/mimic_formal_042_s50758668.jpg",
+    "study_id": "s50758668",
+    "split": "valid",
+    "label": "Atelectasis",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_043",
+    "image_path": "images/mimic_formal_043_s50391562.jpg",
+    "study_id": "s50391562",
+    "split": "valid",
+    "label": "Atelectasis, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_044",
+    "image_path": "images/mimic_formal_044_s51163175.jpg",
+    "study_id": "s51163175",
+    "split": "valid",
+    "label": "Pneumothorax",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Pneumothorax",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_045",
+    "image_path": "images/mimic_formal_045_s51697632.jpg",
+    "study_id": "s51697632",
+    "split": "valid",
+    "label": "Consolidation, Pneumonia",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Consolidation, Pneumonia",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_046",
+    "image_path": "images/mimic_formal_046_s51255886.jpg",
+    "study_id": "s51255886",
+    "split": "valid",
+    "label": "Atelectasis, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_047",
+    "image_path": "images/mimic_formal_047_s51354049.jpg",
+    "study_id": "s51354049",
+    "split": "valid",
+    "label": "Normal",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Normal",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_048",
+    "image_path": "images/mimic_formal_048_s53160255.jpg",
+    "study_id": "s53160255",
+    "split": "valid",
+    "label": "Atelectasis",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_049",
+    "image_path": "images/mimic_formal_049_s52362021.jpg",
+    "study_id": "s52362021",
+    "split": "valid",
+    "label": "Atelectasis, Cardiomegaly, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Cardiomegaly, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  },
+  {
+    "case_id": "mimic_formal_050",
+    "image_path": "images/mimic_formal_050_s53147687.jpg",
+    "study_id": "s53147687",
+    "split": "valid",
+    "label": "Atelectasis, Cardiomegaly, Pleural Effusion",
+    "level": 1,
+    "ground_truth": {
+      "diagnosis": "Atelectasis, Cardiomegaly, Pleural Effusion",
+      "source": "MIMIC-CXR report, audited by the authors"
+    }
+  }
+]
