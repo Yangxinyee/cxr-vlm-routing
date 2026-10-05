@@ -45,3 +45,10 @@ preferred-citation:
   collection-title: "2026 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
   year: 2026
   doi: 10.1109/CHASE69719.2026.00073
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2610.02270"
+      description: arXiv version (accepted manuscript)
+    - type: doi
+      value: 10.48550/arXiv.2610.02270
+      description: arXiv DOI
