@@ -5,7 +5,7 @@ Code, per-case results and aggregate tables for the paper
 > Xinye Yang, Zhusi Zhong, Scott Collins, Grayson Baird, Xuyu Wang, Zhicheng Jiao.
 > **Reliability Stress Tests and Decision-Time Routing for Chest X-ray Vision-Language Models.**
 > 2026 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), workshop, oral presentation.
-> DOI: [10.1109/CHASE69719.2026.00073](https://doi.org/10.1109/CHASE69719.2026.00073) · [Paper page](https://yangxinyee.github.io/papers/cxr-vlm-reliability-routing/)
+> DOI: [10.1109/CHASE69719.2026.00073](https://doi.org/10.1109/CHASE69719.2026.00073) · [arXiv:2610.02270](https://arxiv.org/abs/2610.02270) (free full text) · [Paper page](https://yangxinyee.github.io/papers/cxr-vlm-reliability-routing/)
 
 Three medical vision-language models (CheXagent-8B, MedGemma-4B-IT and MedGemma-27B-IT) are evaluated on two balanced 50-study chest X-ray sets. Each model runs with three prompt styles and two workflows: a single VLM pass, or a four-stage multi-agent pipeline on the same frozen weights. That makes 36 configurations. Findings:
 
@@ -80,13 +80,15 @@ Rerunning these rewrites the aggregate tables with the MIMIC rows only, because 
   author    = {Yang, Xinye and Zhong, Zhusi and Collins, Scott and Baird, Grayson and Wang, Xuyu and Jiao, Zhicheng},
   booktitle = {2026 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},
   year      = {2026},
-  doi       = {10.1109/CHASE69719.2026.00073}
+  doi       = {10.1109/CHASE69719.2026.00073},
+  eprint    = {2610.02270},
+  archivePrefix = {arXiv}
 }
 ```
 
 ## Related work by the authors
 
-- [vrm-edge-triage](https://github.com/Yangxinyee/vrm-edge-triage): confidence-gated cloud–edge triage for chest X-rays (Smart Health, 2026).
+- [vrm-edge-triage](https://github.com/Yangxinyee/vrm-edge-triage): confidence-gated cloud–edge triage for chest X-rays (Smart Health, 2026; [arXiv:2610.02269](https://arxiv.org/abs/2610.02269)).
 - [EHR2Trace](https://yangxinyee.github.io/projects/ehr2trace/): auditable EHR conversion to OMOP CDM and MEDS.
 
 ## License
